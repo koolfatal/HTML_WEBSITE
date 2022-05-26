@@ -1,0 +1,158 @@
+body{
+    margin: 35px;
+    background-image: url('images/10.jpg');
+    background-color: black;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding: auto;
+    padding-top: 2px;
+    padding-bottom:2px ;
+    margin-right:3px ;
+    margin-left:3px ;
+    color: aquamarine;
+    border-radius: 5px;
+}
+.P1{
+  text-align: center;
+}
+.p{
+  text-align: center;
+
+}
+.column {
+  float: left;
+  width: 25%;
+}
+
+
+
+
+  h1{
+     position: absolute;
+     padding: 3px;
+     float: left;
+     margin-left: 2%;
+     margin-top: 10px;
+     font-family:cursive;
+     color: #39ca74;
+  }
+  h3{
+    position: absolute;
+    padding: 3px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    font-family:cursive;
+    color: #39ca74;
+ }
+  
+
+  
+  .section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  .section h1 {
+    text-align: center;
+    font-size: 6rem;
+    font-family: "Cookie";
+    padding: 20px;
+    margin: 15px;
+    z-index: 1;
+    opacity: 0.7;
+  }
+  
+  .video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  .color-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: lightblue;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.3;
+  }
+  header{
+      width: 100%;
+      height: 70px;
+      background-color: #282828;
+  }
+  .header {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  span{ 
+      color: #ffffff;
+  }
+ 
+  ul{
+      width: auto;
+      float: right;
+      margin-top: 8px;
+  }
+
+  li{
+      display: inline-block;
+      padding: 15px 30px;
+  }
+  a{
+      text-align: center;
+      color: #ffffff;
+      text-decoration: none;
+      font-family:sans-serif;
+      font-size: 1.2vw;
+  }
+  a:hover{
+      color:#F0c330;
+      transition: 0.5s;
+  }
+  .div1 {
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    background-color: lightblue;
+  }
+  .hi{
+    text-align: center;
+    margin-left: 2%;
+    margin-top: 10px;
+    font-family:cursive;
+    color: #39ca74;
+  }
+
+  .container {
+    position: relative;
+    max-width: 100%; /* Maximum width */
+    margin: 0 ; /* Center it */
+  }
+  
+  .container .content {
+    position: absolute; /* Position the background text */
+    bottom: 0;
+    top: auto; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 20px; /* Some padding */
+  }
+
+
+
+  
